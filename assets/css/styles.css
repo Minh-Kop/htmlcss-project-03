@@ -375,3 +375,46 @@ a {
     line-height: 1.75;
     color: #2e80ce;
 }
+
+/* Feature */
+.feature {
+    margin-top: 85px;
+    padding: 85px 0;
+}
+
+.feature__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature__media {
+    width: 48.72%;
+}
+
+.feature__images {
+    position: relative;
+    padding-bottom: 121px;
+}
+
+.feature__img {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature__img:nth-child(2) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 332px;
+}
+
+.feature__content {
+    width: 40.17%;
+}
+
+.feature__cta {
+    margin-top: 38px;
+}
