@@ -37,7 +37,7 @@
         <link rel="stylesheet" href="./assets/css/styles.css">
 
         <!-- Animation -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
 
     <body>
@@ -86,7 +86,7 @@
                 <section class="hero">
                     <!-- Hero content -->
                     <section class="hero__content">
-                        <h1 class="hero__heading animate__animated animate__bounce">
+                        <h1 class="hero__heading" data-aos="fade-right">
                             Exceptional dental care for all ages.
                         </h1>
                         <p class="hero__desc">
@@ -124,7 +124,7 @@
                     <!-- Service row -->
                     <div class="service__row">
                         <figure>
-                            <img src="./assets/img/hero-01.jpg" alt="" class="service__img wow animate__slideInLeft">
+                            <img src="./assets/img/hero-01.jpg" alt="" class="service__img" data-aos="fade-up-right">
                         </figure>
                         <div>
                             <div class="service__list">
@@ -585,13 +585,9 @@
         </footer>
 
         <!-- Script -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
-            integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
-            new WOW({
-                animateClass: 'animate__animated',
-            }).init();
+            AOS.init();
         </script>
     </body>
 
